@@ -26,17 +26,35 @@ public class Solution {
         
         Scanner sc=new Scanner(System.in);
         String A=sc.next();
+        /*
         
         String B = new StringBuilder(A).reverse().toString();
-        if (A.equals(B)) {
-            System.out.println("Yes");
+        System.out.println(A.equals(result) ? "Yes" : "No");*/
+        int len_string=A.length();
+       // System.out.println(len_string);
+       /*
+       string b =""
+        i=4
+        m
+        char_string=
+        result=m
+        i=3
+        char_string=a
+        rresult=ma
+       */
+        String result="";
+        for(int i=len_string-1;i>=0;i--){
+           // char char_string=A.charAt(i);
+        
+            String char_string=A.substring(i,i+1);
+            result=result+char_string;
+            
         }
-        else {
-            System.out.println("No");
-        }
+        //System.out.println(result);
+        
+        System.out.println(A.equals(result) ? "Yes" : "No");
     }
 }
-
 
 
 
