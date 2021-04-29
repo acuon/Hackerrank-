@@ -17,28 +17,38 @@ import static java.util.stream.Collectors.toList;
 
 class Result {
 
+    /*
+     * Complete the 'diagonalDifference' function below.
+     *
+     * The function is expected to return an INTEGER.
+     * The function accepts 2D_INTEGER_ARRAY arr as parameter.
+     */
+
     public static int diagonalDifference(List<List<Integer>> arr) {
     int row= arr.size();
     int left_sum = 0;
     int right_sum = 0;
-    int column = row
     
     for (int i = 0; i<row; i++){
+        left_sum = left_sum + arr.get(i).get(i); 
+        right_sum = right_sum + arr.get(i).get(row-i-1);             
+        /*
         for (int j = 0; j<row; j++){
+            
             if(i == j) {
                 left_sum = left_sum + arr.get(i).get(j);
-                //left_sum = left_sum + arr.get(i).get(i);
+                
             }
             if((i+j) == (row-1)) {
                 right_sum = right_sum + arr.get(i).get(j);
             }
         }
+        */
         
         
     }
-    int total = left_sum - right_sum;
-    int diff = Math.abs(total);
-    return diff;
+    return Math.abs(left_sum - right_sum);
+    
     }
 
 }
