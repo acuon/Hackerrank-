@@ -31,6 +31,16 @@ class Result {
     int first = arr.get(0);
     int last = arr.get(n-1);
     
+    /*
+    for (int i = 0; i<n-1; i++) {
+        min_sum = min_sum +arr.get(i);
+    }
+    for (int j = 1; j<n; j++) {
+        max_sum =max_sum + arr.get(j);
+    }
+    System.out.println(min_sum+" "+max_sum);
+    */
+        
     for (int i = 0; i<n; i++) {
         min_sum = min_sum + arr.get(i);
         max_sum = max_sum + arr.get(i);
