@@ -1,4 +1,4 @@
-
+//https://www.hackerrank.com/challenges/s10-weighted-mean/problem
 
 import java.io.*;
 import java.math.*;
