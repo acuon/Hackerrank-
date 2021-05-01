@@ -56,9 +56,9 @@ public class Solution {
       
         
         
-        //double max_value=input[0];
-        //System.out.println(max_value);
-        /* max value
+        /*double max_value=input[0];
+        System.out.println(max_value);
+        max value
         for(int i=0; i<n; i++){
             //int count=1;
             if(max_value>=input[i]){
