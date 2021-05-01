@@ -9,13 +9,15 @@ import java.util.concurrent.*;
 import java.util.regex.*;
 
 public class Solution {
-  
+
+
+
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
         int N = scanner.nextInt();
         scanner.skip("(\r\n|[\n\r\u2028\u2029\u0085])?");
-        if ( N>0 && N<=100) {
+        /*if ( N>0 && N<=100) {
             if ( N%2 == 1) {
                 System.out.println("Weird");
             }
@@ -30,7 +32,10 @@ public class Solution {
                     System.out.println("Not Weird");
                 }
             }
-        }
+        }*/
+        System.out.println(((N%2==0 && (N>=6 && N<=20)) || N%2!=0) ? "Weird" : "Not Weird");
+        //System.out.println((((N%2==1)||((N%2==0)&&(N>5&&N<21)))) ? "Weird" : "Not Weird");
+        
         scanner.close();
     }
 }
