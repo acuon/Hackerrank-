@@ -54,12 +54,13 @@ public class Solution {
         }
         System.out.println(mode);
       
-        //Max Count
-        //int count=1;
+        
+        
         //double max_value=input[0];
         //System.out.println(max_value);
         /* max value
         for(int i=0; i<n; i++){
+            //int count=1;
             if(max_value>=input[i]){
                 if(max_value==input[i]){
                     mode=max_value;
