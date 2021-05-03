@@ -15,8 +15,6 @@ import static java.util.stream.Collectors.toList;
 class Result {
 
     /*
-     * Complete the 'quartiles' function below.
-     *
      * The function is expected to return an INTEGER_ARRAY.
      * The function accepts INTEGER_ARRAY arr as parameter.
      */
