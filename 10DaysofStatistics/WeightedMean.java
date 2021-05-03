@@ -27,7 +27,19 @@ class Result {
         X_W_sum = X_W_sum + X.get(i)*W.get(i);
         W_sum = W_sum + W.get(i);
     }
-    
+    /*
+    for (int i=0; i<n; i++) {
+        for(int j=0; j<n; j++) {
+            if (i==j) {
+                X_W_sum = X_W_sum + X.get(i)*W.get(j);
+                //W_sum = W_sum + W.get(i);
+            }
+            else {
+                continue;
+            }
+            W_sum = W_sum + W.get(j);
+        }
+    }*/
     double W_M = X_W_sum/W_sum;
     System.out.format("%.1f",W_M);
     
