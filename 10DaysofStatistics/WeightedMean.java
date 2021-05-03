@@ -29,7 +29,7 @@ class Result {
     }
     /*
     for (int i=0; i<n; i++) {
-        for(int j=0; j<n; j++) {
+        //for(int j=0; j<n; j++) {
             if (i==j) {
                 X_W_sum = X_W_sum + X.get(i)*W.get(j);
                 //W_sum = W_sum + W.get(i);
