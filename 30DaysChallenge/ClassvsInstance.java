@@ -35,7 +35,7 @@ public class Person {
 	}
 
 	public void yearPasses() {
-  		// Increment this person's age.
+  	// Increment this person's age.
         //age = age +1;
         age++;
 	}
