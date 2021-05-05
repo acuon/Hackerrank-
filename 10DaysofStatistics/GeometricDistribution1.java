@@ -6,8 +6,9 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
-        
-    double p = 0.3333333333; //p = 1/3 = 0.333333333
+    double p = 1d/3d; 
+    //double p = (double)1/3; 
+    //double p = 0.3333333333; //p = 1/3 = 0.333333333
     double q = 1-p;
     int n = 5;
     //System.out.println(p);
