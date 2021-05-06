@@ -6,6 +6,12 @@ import java.util.*;
 public class Solution {
 
     public static void main(String[] args) {
+    /*
+    Scanner sc = new Scanner(System.in);
+    double lambda = sc.nextDouble();
+    int k = sc.nextInt();
+    
+    */
     double lambda = 2.5;
     int k = 5;
     double result = 0;
