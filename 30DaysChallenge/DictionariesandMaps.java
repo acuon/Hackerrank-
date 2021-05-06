@@ -1,6 +1,5 @@
-//
+//https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem
 
-//Complete this code or write your own from scratch
 import java.util.*;
 import java.io.*;
 
@@ -8,7 +7,8 @@ class Solution{
     public static void main(String []argh){
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
-        Dictionary phone_dir = new Hashtable();
+        //HashMap<String,Integer> phone_dir = new HashMap<String,Integer>(); //if you want to use HashMap
+        Dictionary phone_dir = new Hashtable();//if you want to use Hashtable
         for(int i = 0; i < n; i++){
             String name = in.next();
             int phone = in.nextInt();
