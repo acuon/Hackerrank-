@@ -18,13 +18,11 @@ class Result {
     int factorial = 1;
     int i = 1;
     while (i<=n) {
-        
         factorial = factorial * i;
         i++;
     }
     return factorial;
     }
-
 }
 
 public class Solution {
