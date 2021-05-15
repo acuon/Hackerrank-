@@ -43,6 +43,9 @@ class Result {
         //System.out.println(arr);
         --d;
     }
+//     for(int i=0; i<d; i++) {                 //this will also work same as while loop;
+//         arr.add(arr.remove(0));
+//     }
     return arr;
     }
 
