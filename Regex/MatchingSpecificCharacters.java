@@ -1,6 +1,7 @@
 /*
+//https://www.hackerrank.com/challenges/matching-specific-characters/problem
+
 The character class [ ] matches only one out of several characters placed inside the square brackets.
-  
   
 You have a test string S.
 Your task is to write a regex that will match S with following conditions:
