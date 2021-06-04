@@ -17,7 +17,6 @@ Your task is to write a regex that will match S using the following conditions:
 
 */
 
-
 import java.io.*;
 import java.util.*;
 import java.text.*;
