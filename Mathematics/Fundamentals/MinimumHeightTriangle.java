@@ -17,13 +17,9 @@ import static java.util.stream.Collectors.toList;
 class Result {
 
     public static int lowestTriangle(int trianglebase, int area) {
-        /*
-        a = 100
-        b = 17
-        double h = 2*(double)area/(double)trianglebase --> will give 11.7647058824 ---> after rounding --> 12.0
-        double h = 2*area/trianglebase --> will give 11.0 ---> after rounding --> 11.0
-        */
-        double h = Math.round(2*(double)area/(double)trianglebase);     //we have to convert it to double otherwise it will divide in int form 
+        
+        //int h = (int)Math.ceil(2*(double)area/(double)trianglebase);
+        int h = (int)Math.ceil(2.0*area/trianglebase);
         return (int)h;
 
     }
