@@ -19,7 +19,8 @@ class Result {
         return ((n+n%2)*(m+m%2))/4;
       /*
       we can supply four army bases(boxes) using 1 supply box if we drop it at the intersection of the four bases(boxes)
-    
+      incrementing number of bases to the nearest multiple of 4
+      after dividing it by 4 we get the minimum number of supplies 
       */
     }
 }
