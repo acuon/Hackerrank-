@@ -1,6 +1,5 @@
 /*
 https://www.hackerrank.com/challenges/lowest-triangle/problem
-
 */
 import java.io.*;
 import java.math.*;
