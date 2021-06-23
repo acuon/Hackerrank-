@@ -13,7 +13,8 @@ public class Solution {
         double q = g/(b+g);
         int x = 3;
         int n = 6;
-/*        Scanner sc = new Scanner(System.in);
+        /*      
+        Scanner sc = new Scanner(System.in);
         double b = sc.nextDouble();
         double g = sc.nextDouble();
         int x = sc.nextInt();
