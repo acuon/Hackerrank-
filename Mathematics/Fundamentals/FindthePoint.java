@@ -1,5 +1,6 @@
 /*
 //https://www.hackerrank.com/challenges/find-point/problem
+
 Sample Input
 2             //testcases
 0 0 1 1       //first case inputs
@@ -7,6 +8,7 @@ Sample Input
 Sample Output
 2 2           // first case output
 3 3           // second case output
+
 */
 
 import java.io.*;
