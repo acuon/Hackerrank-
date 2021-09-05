@@ -1,2 +1,2 @@
 # Hackerrank-
-JavaPrograms 
+Programs 
