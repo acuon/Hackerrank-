@@ -33,7 +33,7 @@ public class Solution {
         return count;
     }
     /*
-    
+
     int sum = 0;
     int count = 0;
     for(int i=0; i<s.size(); i++) {
