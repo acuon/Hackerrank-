@@ -26,8 +26,7 @@ class Result {
                 }
             }
             ar.add(count);
-        }
-        
+        }        
         return ar;
 
     }
