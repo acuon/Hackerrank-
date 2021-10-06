@@ -15,7 +15,6 @@ import static java.util.stream.Collectors.joining;
 import static java.util.stream.Collectors.toList;
 
 class Result {
-
     public static List<String> bigSorting(List<String> unsorted) {
         String[] ar = unsorted.toArray(new String[unsorted.size()]);
         for(int i=0; i<ar.length; i++) {
