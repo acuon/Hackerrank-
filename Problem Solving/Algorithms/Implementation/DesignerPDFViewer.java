@@ -18,6 +18,7 @@ class Result {
         int maxHeight = 0;
         for(int i=0; i<word.length(); i++) {
             maxHeight = Math.max(maxHeight, h.get(word.charAt(i)-'a'));
+//             maxHeight = Math.max(maxHeight, h.get((int)(word.charAt(i)-'a')));
         }
         return maxHeight*word.length();
     }
