@@ -15,7 +15,7 @@ import static java.util.stream.Collectors.toList;
 class Result {
 
     public static int viralAdvertising(int n) {
-        int liked = 2;
+        int liked = 5/2;
         int total = liked;
         while(n-->1) {
             liked = (liked * 3)/2;
