@@ -1,6 +1,5 @@
-/*
-https://www.hackerrank.com/challenges/js10-switch/problem
-*/
+//https://www.hackerrank.com/challenges/js10-switch/problem
+
 
 'use strict';
 
