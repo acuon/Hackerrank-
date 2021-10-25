@@ -30,6 +30,7 @@ public class Solution {
             }
         });
         //System.out.println(arr.get(4).get(2));
+        
         int max = -10000;
         int sum = 0;
         for(int i=0; i<arr.size()-2; i++) {
