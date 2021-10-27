@@ -82,11 +82,9 @@ The two strings contain all the same letters in the same frequencies, so we prin
 */
 
 
-
 import java.util.Scanner;
 
 public class Solution {
-
     static boolean isAnagram(String a, String b) {
         char[] a1 = a.toLowerCase().toCharArray();
         char[] b1 = b.toLowerCase().toCharArray();
@@ -101,7 +99,6 @@ public class Solution {
     }
 
   public static void main(String[] args) {
-    
         Scanner scan = new Scanner(System.in);
         String a = scan.next();
         String b = scan.next();
