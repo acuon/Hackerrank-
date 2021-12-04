@@ -1,3 +1,5 @@
+//https://github.com/pasha-kuznetsov/hackerrank/blob/master/src/main/java/strings/aho_corasick/Solution.java
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
