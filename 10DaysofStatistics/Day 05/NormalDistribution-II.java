@@ -24,6 +24,7 @@ public class Solution {
     public static double cumulative(double mean, double std, double x) {
         double parameter = (x - mean) / (std * Math.sqrt(2));
         return (0.5) * (1 + erf(parameter));
+        
     }
     
     
